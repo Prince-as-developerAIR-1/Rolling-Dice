@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice - Fun Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1>Roll Dice</h1><span>* fun</span>
+            </div>
+
+            <div class="dice-container">
+                <div class="dice" id="dice1">🎲</div>
+                <div class="dice" id="dice2">🎲</div>
+            </div>
+
+            <div class="total-box">
+                <label>TOTAL</label>
+                <h2 id="total">--</h2>
+            </div>
+
+            <button class="roll-btn" id="rollBtn">Roll Dice</button>
+
+           <div class="history">
+            <p>HISTORY</p>
+            <div class="history-list" id="historyList"></div>
+           </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
